@@ -61,6 +61,30 @@
         <p id="result"></p>
     </div>
 </form>
+    <h4>Ученик</h4>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+  <p>Данные об ученике:
+        <input type="Radio" name="place" value="Moscow">Взрослый
+        <input type="Radio" name="place" value="Nizhny" checked >Ребенок
+    </p>
+  <p>Возраст: <input type="Number" name="age" size=20 value="0"></p>
+  <p>Уровень языка
+        <select name="languages">
+            <OPTION value="Начинающий">Начинаю</OPTION>
+            <OPTION value="Читаю и перевожу со словарем">Читаю и перевожу со словарем</OPTION>
+            <OPTION value="Продолжающий">Продолжающий</OPTION>
+        </select>
+    </p>
+  <p> Дополнительная информация:
+        <br>
+        <TEXTAREA cols=80 name="textarea" rows=4>Для заметок</TEXTAREA>
+    </p>
+            <br><br>
+    <div>
+        <button type="reset">Очистить</button>
+        <button type="submit">Отправить</button>
+    </div>
+</form>
 </p>
 </body>
 </html>
