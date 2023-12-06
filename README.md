@@ -1,2 +1,2 @@
-### https://kyakanina.github.io/minor/img/inf.html
+### https://kyakanina.github.io/minor/inf.html
 ### https://github.com/kyakanina/minor/inf.html
